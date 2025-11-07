@@ -7,7 +7,8 @@ HEADER		= include
 SRC_DIR		= src
 BUILD_DIR	= object
 NAME		= Zombie
-SRC			+= src/main.cpp \
+SRC			+= src/main.cpp			\
+			   src/NewZombie.cpp	\
 			   src/Zombie.cpp
 
 OBJ			= ${SRC:$(SRC_DIR)/%.cpp=$(BUILD_DIR)/%.o}
