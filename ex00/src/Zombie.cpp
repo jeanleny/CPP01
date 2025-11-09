@@ -9,7 +9,6 @@ void	Zombie::announce()
 Zombie::Zombie(std::string zombieName)
 {
 	name = zombieName;
-	announce();
 	return ;
 }
 

@@ -9,5 +9,6 @@ Zombie *newZombie(std::string name)
 void	randomChump(std::string name)
 {
 	Zombie zombie = Zombie (name);
+	zombie.announce();
 	return ;
 }
