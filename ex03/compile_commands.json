@@ -1,0 +1,26 @@
+[
+{
+	"directory": "/home/lperis/Work/CommonCore/4th/CPP/CPP_01/ex03",
+	"arguments": ["c++", "-Wall", "-Werror", "-Wextra", "-std=c++98", "-MMD", "-MP", "-g", "-Iinclude", "-c", "src/main.cpp", "-o", "object/main.o"],
+	"file": "src/main.cpp",
+	"output": "object/main.o"
+},
+{
+	"directory": "/home/lperis/Work/CommonCore/4th/CPP/CPP_01/ex03",
+	"arguments": ["c++", "-Wall", "-Werror", "-Wextra", "-std=c++98", "-MMD", "-MP", "-g", "-Iinclude", "-c", "src/Weapon.cpp", "-o", "object/Weapon.o"],
+	"file": "src/Weapon.cpp",
+	"output": "object/Weapon.o"
+},
+{
+	"directory": "/home/lperis/Work/CommonCore/4th/CPP/CPP_01/ex03",
+	"arguments": ["c++", "-Wall", "-Werror", "-Wextra", "-std=c++98", "-MMD", "-MP", "-g", "-Iinclude", "-c", "src/HumanA.cpp", "-o", "object/HumanA.o"],
+	"file": "src/HumanA.cpp",
+	"output": "object/HumanA.o"
+},
+{
+	"directory": "/home/lperis/Work/CommonCore/4th/CPP/CPP_01/ex03",
+	"arguments": ["c++", "-Wall", "-Werror", "-Wextra", "-std=c++98", "-MMD", "-MP", "-g", "-Iinclude", "-c", "src/HumanB.cpp", "-o", "object/HumanB.o"],
+	"file": "src/HumanB.cpp",
+	"output": "object/HumanB.o"
+}
+]
