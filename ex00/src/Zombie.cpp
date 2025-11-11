@@ -12,7 +12,6 @@ Zombie::Zombie(std::string zombieName)
 	return ;
 }
 
-
 Zombie::~Zombie()
 {
 	std::cout << "orvwar " << name << std::endl;
