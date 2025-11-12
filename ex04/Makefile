@@ -6,7 +6,7 @@ RM			= rm -f
 HEADER		= include
 SRC_DIR		= src
 BUILD_DIR	= object
-NAME		= SedIsForLosers
+NAME		= sedIsForLosers
 SRC			+= src/main.cpp			\
 
 OBJ			= ${SRC:$(SRC_DIR)/%.cpp=$(BUILD_DIR)/%.o}

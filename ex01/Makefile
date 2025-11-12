@@ -6,7 +6,7 @@ RM			= rm -f
 HEADER		= include
 SRC_DIR		= src
 BUILD_DIR	= object
-NAME		= ZombieHorde
+NAME		= zombieHorde
 SRC			+= src/main.cpp			\
 			   src/Zombie.cpp		\
 			   src/zombieHorde.cpp

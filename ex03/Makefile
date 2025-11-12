@@ -6,7 +6,7 @@ RM			= rm -f
 HEADER		= include
 SRC_DIR		= src
 BUILD_DIR	= object
-NAME		= Brawl
+NAME		= brawl
 SRC			+= src/main.cpp			\
 			   src/Weapon.cpp		\
 			   src/HumanA.cpp		\

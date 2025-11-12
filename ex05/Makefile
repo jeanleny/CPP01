@@ -6,10 +6,9 @@ RM			= rm -f
 HEADER		= include
 SRC_DIR		= src
 BUILD_DIR	= object
-NAME		= zombie
+NAME		= complain
 SRC			+= src/main.cpp			\
-			   src/Zombie.cpp		\
-			   src/newZombie.cpp		\
+			   src/Harl.cpp			\
 
 OBJ			= ${SRC:$(SRC_DIR)/%.cpp=$(BUILD_DIR)/%.o}
 DEP			= $(OBJ:.o=.d)
@@ -26,11 +25,10 @@ $(BUILD_DIR)/%.o	:$(SRC_DIR)/%.cpp
 clean				:
 	$(RM) -r $(BUILD_DIR)
 
-fclean				:clean
+fclean				:	clean
 	$(RM) $(NAME)
 
-re					: fclean all
+re					:	fclean all
 
-.PHONY				: all clean fclean re
+.PHONY				:	all clean fclean re
 -include $(DEP)
-

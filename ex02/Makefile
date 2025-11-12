@@ -3,7 +3,7 @@
 CXX			= c++
 CXXFLAGS	= -Wall -Werror -Wextra -std=c++98 -g
 RM			= rm -f
-NAME		= Brain
+NAME		= brain
 SRC			= main.cpp			
 
 OBJ			= ${SRC:.cpp=.o}
